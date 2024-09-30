@@ -1,0 +1,34 @@
+.icon {
+    height: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.li-hover-animation {
+    transition: all 0.3s ease-in-out;
+}
+
+.li-hover-animation:hover {
+    transform: scale(1.01);
+}
+
+.navHome {
+    font-size: 1.1rem;
+    font-family: var(--mainFont);
+    font-weight: lighter;
+}
+
+.carouselAnim {
+    transition: transform 0.5s ease;
+}
+
+.slide-left {
+    transform: translateX(-100%);
+}
+
+.slide-right {
+    transform: translateX(0%);
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Quicksand:wght@500&display=swap');
+
+:root {
+    --dark-red: rgb(142, 69, 17);
+    --mainFont: 'Crimson Text', serif
+}
+
+.signIn {
+    background: url("../media/coffee-book.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInModal {
+    background-color: rgb(255, 255, 255, .85);
+    padding: 25px;
+    width: 65vh;
+    border-radius: 1.5rem;
+    border: 1px solid var(--dark-red);
+}
+
+@media only screen and (max-width:480px) {
+    .signInModal {
+        position: relative;
+        width: 50vh;
+    }
+}
+
+.modalText {
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 25px;
+    width: 100%;
+}
+
+.modalBtn {
+    margin-top: 1rem;
+    width: 100%;
+    height: 6vh;
+    background-color: var(--dark-red) !important;
+}
+
+.modalBtn:active{
+    box-shadow: none;
+}
+
+.btnLink {
+    text-decoration: none;
+    color: var(--dark-red);
+}
+
+.btnShop {
+    background-color: var(--dark-red);
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnShop:hover {
+    background-color: antiquewhite;
+    color: var(--dark-red) !important;
+}
+
+.bookDis {
+    margin-top: 7rem;
+    font-size: 35px;
+}
+
+.bookDis>img{
+    height: 100px;
+}
+
+.disParagraph{
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) 
+}
+
+.bottom-left {
+    text-shadow: 1px 1px 2px rgb(127, 0, 0);
+    font-size: 35px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: -23%;
+    top: 130%;
+    text-align: center;
+    color: var(--dark-red);
+    width: 50%;
+}
+
+.link-text{
+    color: var(--dark-red) !important;
+}

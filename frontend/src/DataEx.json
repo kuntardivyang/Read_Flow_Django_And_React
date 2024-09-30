@@ -1,0 +1,23 @@
+{
+    "id": 121,
+    "kind": "books#volume",
+    "google_id": "0yiJDwAAQBAJ",
+    "title": "Talking to My Daughter",
+    "authors": "Yanis Varoufakis",
+    "publisher": "Random House",
+    "published_date": "2019-02-28",
+    "description": "**THE SUNDAY TIMES BESTSELLER** Begin the new year with a fresh perspective on economics, capitalism, and the society we live in. Yanis Varoufakis, world renowned economist, writes to his daughter to teach her the hazards of capitalism. 'Why is there so much inequality?' asked Xenia to her father. Answering her questions in a series of accessible and tender letters, Varoufakis educates her to what economics and capitalism is and why it is so dangerous. Taking from memories of her childhood and a variety of well-known tales - from Oedipus and Faust to Frankenstein and The Matrix - Varoufakis turns Talking To My Daughter into an enjoyable and engaging read, without ever shying from the harder truths. Greece's former finance minister explains everything you need to know to understand why economics is the most important drama of our times. In answering his daughter's deceptively simple questions, Varoufakis disentangles our troubling world with remarkable clarity and child-like honesty, as well as inspiring us to make it a better one. 'Utterly accessible, deeply humane and startlingly original - a potent democratic tool at the perfect time' Naomi Klein",
+    "page_count": 224,
+    "categories": "Business & Economics",
+    "language": "en",
+    "small_thumbnail": "http://books.google.com/books/content?id=0yiJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+    "thumbnail": "http://books.google.com/books/content?id=0yiJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "preview_link": "http://books.google.co.in/books?id=0yiJDwAAQBAJ&printsec=frontcover&dq=bestseller&hl=&as_brr=6&cd=21&source=gbs_api",
+    "country": "IN",
+    "saleability": "FOR_SALE",
+    "is_ebook": true,
+    "list_price_amount": "530.11",
+    "list_price_currency_code": "INR",
+    "retail_price_amount": "265.06",
+    "retail_price_currency_code": "INR"
+}

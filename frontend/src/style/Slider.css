@@ -1,0 +1,120 @@
+:root {
+    --dark-red: rgb(142, 69, 17);
+    --mainFont: 'Crimson Text', serif
+}
+
+.swiper-bed {
+    margin-top: 1vh;
+    width: 12rem;
+    height: auto;
+    /* border: 2px solid var(--dark-red); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.swiper-bed:hover {
+    transform: scale(1.012);
+}
+
+.splide__list {
+    height: auto;
+    width: 100%;
+}
+
+.splide-container {
+    width: 100%;
+}
+
+.splide__arrow--prev {
+    left: -1em !important;
+}
+
+.splide__arrow--next {
+    right: 1em !important;
+}
+
+.splide__arrow svg {
+    fill: #000;
+    height: .7em !important;
+    width: .7em !important;
+}
+
+.splide__arrow {
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 4px;
+}
+
+.svg-container {
+    display: flex;
+}
+
+.svg-container>span {
+    margin-right: 10px;
+}
+
+/* #splide01 {
+    width: 85vw;
+    height: 40vh;
+} */
+
+.swiper-bed :nth-child(4) {
+    font-weight: 600;
+    color: var(--dark-red);
+}
+
+.sci {
+    position: absolute;
+    bottom: 5vh;
+    width: 10vw;
+}
+
+.scidetail {
+    margin: 0 10px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.scibutton {
+    z-index: 1 !important;
+    background-color: #113946 !important;
+    color: aliceblue !important;
+    width: 100% !important;
+}
+
+.card:hover .sci .scidetail {
+    transform: translateY(10px);
+    opacity: 1 !important;
+}
+
+.Card-Body:hover {
+    filter: brightness(50%);
+}
+
+.card-image {
+    height: auto;
+    width: 100%;
+}
+
+.book-head {
+    font-style: italic;
+    font-weight: 500 !important;
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+}
+
+.fiction-image {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .swiper-bed {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .swiper-bed {
+        width: 40vw;
+        height: 45vh;
+    }
+}
